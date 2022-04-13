@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shepherds's Lamb Patagonian Jerky</title>
+    <style>
+      body{
+        font-family: sans-serif;
+        text-align: center;
+        background-image: linear-gradient(#606c38, #bc6c25);
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 2%
+      }
+      #header-img{
+        width: 60px;
+        position: fixed;
+        left: 8%;
+        top: 2px;
+
+        }​
+
+      #video{
+        width: 420;
+        height: 315;
+      }
+
+      li{
+        display:inline-block;
+      }
+
+      .nav-link{
+        padding: 15px;
+        margin: 20px;
+      }
+      #nav-bar{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: #fefae0;
+        border-radius: 30px;
+      }​
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        .flex-container {
+          display: flex;
+          justify-content:space-around;
+          background-color: #dda15e;
+          flex-wrap: wrap;
+          border-radius: 30px;
+        }
+        .flex-container > div {
+          background-color: #606C38;
+          width: 200px;
+          margin: 10px;
+          text-align: center;
+          line-height: 14px;
+          font-size:14px;
+          border-radius: 30px;
+          border-style: inset;
+        }
+
+        @media only screen and (max-width: 768px) {
+          /* For mobile phones: */
+          [class*="col-"] {
+            width: 100%;
+          }
+        }
+
+        .img-producto{
+          width: 120px
+        }
+
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div id="page-wrapper"
+        <div class="logo">
+          <img id="header-img" src="https://images.squarespace-cdn.com/content/v1/584c56bed1758ef90feb7622/1545432583072-O7XFDKA8ZD4W6XPX0S7J/ShepherdsLambLogo_Circle_white.png" alt="Shepherds Lamb Logo">
+        </div>
+          <nav id="nav-bar">
+            <ul>
+              <li><a class="nav-link" href="#products">Our products</a></li>
+              <li><a class="nav-link" href="#how">how its made</a></li>
+              <li><a class="nav-link" href="#order">Order</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Try our homemade Patagonian lamb Jerky</h1>
+      <section id=products>
+        <div class="flex-container">
+          <div class="producto">
+            <h3>Charqui de Cordero</h3>
+            <img src="http://assets.stickpng.com/images/5c403f3be39d5d01c21da90c.png" class="img-producto">
+            <ul>
+              <li>Cordero patagonico de pastura</li>
+              <li>Bajo tenor graso, sabor intenso</li>
+          </div>
+          <div class="producto">
+            <h3>Charqui de ternera</h3>
+            <img src="https://i.ytimg.com/vi/h5xoQwsQ0O0/hqdefault.jpg" class="img-producto">
+            <ul>
+              <li>Ternera pampeana ahumada</li>
+              <li>suave sabor, contenido graso saludable</li>
+          </div>
+          <div class="producto">
+            <h3>Mix de charquis</h3>
+            <img src="https://image.shutterstock.com/image-photo/charqui-dried-beef-260nw-1145402996.jpg" class="img-producto">
+            <ul>
+              <li>Pack con ambas variedades</li>
+              <li>mas economico</li>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section id="how">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8RNE_WSZ0_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+      <section id="order">
+        <form type="input" id="form" action="/https://www.freecodecamp.com/email-submit">
+          <input type="email" id="email" placeholder="Subscribe" name="email">
+          <button type="submit" id="submit"> Submit </button>
+        </form>
+      </section>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
+  </body>
+</html>
